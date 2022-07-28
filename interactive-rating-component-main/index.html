@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <main id="my_form">
+    <img src="assets/images/icon-star.svg" alt="star">
+    <h1>How did we do?</h1>
+    <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our
+      offering!</p>
+    <div>
+      <!-- <input type="radio" name="radio" id="1">
+      <label for="test">1</label>
+      <input type="radio" name="radio" id="2">
+      <label for="test">2</label>
+      <input type="radio" name="radio" id="3">
+      <label for="test">3</label>
+      <input type="radio" name="radio" id="4">
+      <label for="test">4</label>
+      <input type="radio" name="radio" id="5">
+      <label for="test">5</label> -->
+      <span onclick="clickedButton(one)" id="one_input">1</span>
+      <span onclick="clickedButton(two)" id="two_input">2</span>
+      <span onclick="clickedButton(three)" id="three_input">3</span>
+      <span onclick="clickedButton(four)" id="four_input">4</span>
+      <span onclick="clickedButton(five)" id="five_input">5</span>
+    </div>
+    <a href="#" onclick="clickedSubmit()" id="openThankyouId">SUBMIT</a>
+  </main>
+
+  <main id="thank_you_form">
+    <div>
+      <img src="assets/images/illustration-thank-you.svg" alt="thank you">
+      <figcaption>You selected XXX out of XXX</figcaption>
+    </div>
+    <h1>Thank you!</h1>
+    <p>We appreciate you taking time to give a rating. If you ever need more support, don't hesitate to get in touch!
+    </p>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Jennifer</a>.
+  </div>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

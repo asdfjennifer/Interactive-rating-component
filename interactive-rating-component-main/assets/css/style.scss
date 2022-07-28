@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// ============================================================
+//         GENERAL STYLES
+
+// # Front-end Style Guide
+
+// ## Layout
+
+// The designs were created to the following widths:
+
+// - Mobile: 375px
+// - Desktop: 1440px
+
+// ## Colors
+
+// ### Primary
+
+$orange: hsl(25, 97%, 53%);
+
+// ### Neutral
+
+$white: hsl(0, 0%, 100%);
+$lightGrey: hsl(217, 12%, 63%);
+$mediumGrey: hsl(216, 12%, 54%);
+$darkBlue: hsl(213, 19%, 18%);
+$veryDarkBlue: hsl(216, 12%, 8%);
+
+// ## Typography
+
+// ### Body Copy
+
+// - Font size (paragraph): 15px
+$mbig: 5vh;
+$msmall: 3vh;
+
+// ### Font
+
+// - Family: [Overpass](https://fonts.google.com/specimen/Overpass)
+// - Weights: 400, 700
+
+// ============================================================
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background: $veryDarkBlue;
+    margin: 5vh 40%;
+
+    main {
+        background: rgb(37, 45, 55);
+        background: linear-gradient(180deg, rgba(37, 45, 55, 1) 0%, rgba(37, 45, 55, 1) 16%, rgba(3, 3, 3, 1) 100%);
+        padding: 5%;
+        border-radius: 20px;
+
+        img {
+            width: 8%;
+            background: rgba(124, 135, 152, 0.1);
+            padding: 2%;
+            border-radius: 50px;
+            margin-bottom: $mbig;
+        }
+
+        h1 {
+            color: $white;
+            margin-bottom: $msmall;
+        }
+
+        p {
+            color: $lightGrey;
+            font-size: 15px;
+            margin-bottom: $mbig;
+            ;
+        }
+
+        div {
+            display: inline;
+
+            span {
+                background: rgba(124, 135, 152, 0.1);
+                padding: 3% 5%;
+                border-radius: 50px;
+            }
+
+            span:hover {
+                background: $orange;
+                color: $white;
+                transition: 0.3s;
+
+            }
+        }
+
+        a {
+            margin-top: $mbig;
+            background: $orange;
+            color: $white;
+            text-decoration: none;
+            padding: 1vh 40%;
+            display: inline-block;
+            border-radius: 20px;
+            letter-spacing: 1px;
+            margin-bottom: $msmall;
+        }
+
+        a:hover {
+            background: $white;
+            color: $orange;
+            transition: 0.4s;
+        }
+
+        .myStyle {
+            background: $mediumGrey;
+            color: $white;
+        }
+    }
+
+    // ============================================================
+    //              THANK YOU FORM
+    // ============================================================
+
+    #thank_you_form {
+        display: none;
+        text-align: center;
+
+        div {
+
+            img {
+                width: 50%;
+                background: none;
+                padding: 0;
+                border-radius: 0;
+            }
+
+            figcaption {
+                width: 100%;
+                font-size: 1rem;
+                color: $orange;
+                background: rgba(124, 135, 152, 0.1);
+                border-radius: 20px;
+                padding: 2%;
+                margin-bottom: $mbig;
+            }
+        }
+
+        h1 {
+            margin-bottom: $msmall;
+        }
+
+        p {}
+    }
+
+    .attribution {
+        margin-bottom: 10vh;
+    }
+}

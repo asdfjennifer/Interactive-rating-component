@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background: hsl(216deg, 12%, 8%);
+  margin: 5vh 40%;
+}
+body main {
+  background: rgb(37, 45, 55);
+  background: linear-gradient(180deg, rgb(37, 45, 55) 0%, rgb(37, 45, 55) 16%, rgb(3, 3, 3) 100%);
+  padding: 5%;
+  border-radius: 20px;
+}
+body main img {
+  width: 8%;
+  background: rgba(124, 135, 152, 0.1);
+  padding: 2%;
+  border-radius: 50px;
+  margin-bottom: 5vh;
+}
+body main h1 {
+  color: hsl(0deg, 0%, 100%);
+  margin-bottom: 3vh;
+}
+body main p {
+  color: hsl(217deg, 12%, 63%);
+  font-size: 15px;
+  margin-bottom: 5vh;
+}
+body main div {
+  display: inline;
+}
+body main div span {
+  background: rgba(124, 135, 152, 0.1);
+  padding: 3% 5%;
+  border-radius: 50px;
+}
+body main div span:hover {
+  background: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+  transition: 0.3s;
+}
+body main a {
+  margin-top: 5vh;
+  background: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+  text-decoration: none;
+  padding: 1vh 40%;
+  display: inline-block;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 3vh;
+}
+body main a:hover {
+  background: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+  transition: 0.4s;
+}
+body main .myStyle {
+  background: hsl(216deg, 12%, 54%);
+  color: hsl(0deg, 0%, 100%);
+}
+body #thank_you_form {
+  display: none;
+  text-align: center;
+}
+body #thank_you_form div img {
+  width: 50%;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+body #thank_you_form div figcaption {
+  width: 100%;
+  font-size: 1rem;
+  color: hsl(25deg, 97%, 53%);
+  background: rgba(124, 135, 152, 0.1);
+  border-radius: 20px;
+  padding: 2%;
+  margin-bottom: 5vh;
+}
+body #thank_you_form h1 {
+  margin-bottom: 3vh;
+}
+body .attribution {
+  margin-bottom: 10vh;
+}/*# sourceMappingURL=style.css.map */
