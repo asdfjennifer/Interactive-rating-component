@@ -9,7 +9,7 @@ let four = document.getElementById('four_input');
 let five = document.getElementById('five_input');
 
 
-let button = document.getElementById('one');
+// let button = document.getElementById('one');
 
 let clickedButton = (button) => {
     // btn1.style.backgroundColor = "gray";
